@@ -7,10 +7,15 @@ addArchitecture:
     - unless:
       - ls /lib/games/steam/
 
-installstuff:
+Cata:
   pkg.installed:
     - name: cataclysm-dda-data
     - name: cataclysm-dda-sdl
+
+Dworf:
+  pkg.installed:
+    - name: dwarf-fortress
+    - name: dwarf-fortress-data
 
 Installsteam:
   cmd.run:
