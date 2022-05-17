@@ -8,20 +8,20 @@ in the saltstack.
 
 This is the command to enable 32-bit format which is required for steam to function
 on linux (note that all of these commands are followed by "sudo apt update")
-'''
-sudo dpkg --add-architecture i386
-'''
+
+    sudo dpkg --add-architecture i386
+
 
 Next i added the repository in which steam can be found
-'''
-sudo add-apt-repository non-free
-'''
+
+    sudo add-apt-repository non-free
+
 
 Following these actions i finally got to installing steam
 
-'''
-sudo apt install steam
-'''
+
+    sudo apt install steam
+
 
 While this did produce the desired results i did run into some problems that i
 could not fix without brute force solutions. Install works perfectly if you start
@@ -43,3 +43,5 @@ unless condition tied to whether /lib/games/steam exists or not.
 I tested this code as salt local and by using master minion architecture, both work
 when starting off a clean table as stated before.
 
+[image](Code.png)
+[image](Run.png)
