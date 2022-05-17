@@ -1,4 +1,4 @@
-#Miniproject documentation
+# Miniproject documentation
 
 I started this project by searching information online on how to install steam via terminal as it is not part o>
 
