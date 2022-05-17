@@ -43,5 +43,5 @@ unless condition tied to whether /lib/games/steam exists or not.
 I tested this code as salt local and by using master minion architecture, both work
 when starting off a clean table as stated before.
 
-[image](Code.png)
-[image](Run.png)
+![image](Code.png)
+![image](Run.png)
